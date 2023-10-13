@@ -5,14 +5,14 @@
       <div class="container">
         <div class="box">
           <img src="../imgs/avatar-01.png" alt="">
-          <h3>Mohamed Farag</h3>
-          <span class="title">Full Stack Developer</span>
+          <h3>Peter</h3>
+          <span class="title">Client</span>
           <div class="rate">
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="far fa-star"></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="far fa-star"><font-awesome-icon :icon="['far','star']"/></i>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
@@ -21,14 +21,14 @@
         </div>
         <div class="box">
           <img src="../imgs/avatar-02.png" alt="">
-          <h3>Mohamed Ibrahim</h3>
+          <h3>Wolfgang</h3>
           <span class="title">Full Stack Developer</span>
           <div class="rate">
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="far fa-star"></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="far fa-star"><font-awesome-icon :icon="['far','star']"/></i>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
@@ -37,14 +37,14 @@
         </div>
         <div class="box">
           <img src="../imgs/avatar-03.png" alt="">
-          <h3>Shady Nabil</h3>
-          <span class="title">Full Stack Developer</span>
+          <h3>Michael</h3>
+          <span class="title">Client</span>
           <div class="rate">
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="far fa-star"></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="far fa-star"><font-awesome-icon :icon="['far','star']"/></i>
+            <i class="far fa-star"><font-awesome-icon :icon="['far','star']"/></i>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
@@ -53,14 +53,14 @@
         </div>
         <div class="box">
           <img src="../imgs/avatar-04.png" alt="">
-          <h3>Amr Hendawy</h3>
-          <span class="title">Full Stack Developer</span>
+          <h3>Werner</h3>
+          <span class="title">Frontend Development</span>
           <div class="rate">
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
@@ -69,14 +69,14 @@
         </div>
         <div class="box">
           <img src="../imgs/avatar-05.png" alt="">
-          <h3>Sherief Ashraf</h3>
-          <span class="title">Full Stack Developer</span>
+          <h3>Klaus</h3>
+          <span class="title">Ai Development</span>
           <div class="rate">
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="far fa-star"><font-awesome-icon :icon="['far','star']"/></i>
+            <i class="far fa-star"><font-awesome-icon :icon="['far','star']"/></i>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
@@ -85,14 +85,14 @@
         </div>
         <div class="box">
           <img src="../imgs/avatar-06.png" alt="">
-          <h3>Osama Mohamed</h3>
+          <h3>Thomas</h3>
           <span class="title">Full Stack Developer</span>
           <div class="rate">
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="filled fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="filled fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i>
+            <i class="far fa-star"><font-awesome-icon :icon="['far','star']"/></i>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus

@@ -6,19 +6,19 @@
         <div class="box quality">
           <div class="img-holder"><img src="../imgs/features-01.jpg" alt=""></div>
           <h2>Quality</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>
+          <p>Locaverse guarantees timely delivery for optimum client satisfaction and efficiency</p>
           <a href="#">More</a>
         </div>
         <div class="box time">
           <div class="img-holder"><img src="../imgs/features-02.jpg" alt=""></div>
           <h2>Time</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>
+          <p>Locaverse team embodies unity, efficiency, and punctuality for exceptional outcomes</p>
           <a href="#">More</a>
         </div>
         <div class="box passion">
           <div class="img-holder"><img src="../imgs/features-03.jpg" alt=""></div>
-          <h2>Passion</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>
+          <h2>Price</h2>
+          <p>Locaverse offers competitive pricing for cost-effective, high-quality language solutions</p>
           <a href="#">More</a>
         </div>
       </div>

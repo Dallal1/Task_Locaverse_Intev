@@ -3,15 +3,17 @@
      <div class="landing">
       <div class="container">
         <div class="text">
-          <h2>Welcome, To Dallal World</h2>
-          <p>Here Iam gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and Events</p>
+          <h2>Welcome, To Locaverse World</h2>
+          <p>We offer eight core services. Here, all of Locaverse's services are at your disposal</p>
         </div>
         <div class="image">
           <img src="../static/landing-image.png" alt="">
         </div>
       </div>
       <a href="#articles" class="go-down">
-        <i class="fas fa-angle-double-down fa-2x"></i>
+        <i class="fas fa-angle-double-down fa-2x">
+          <font-awesome-icon :icon="['fas','angle-double-down']"/>
+        </i>
       </a>
     </div>
     <!-- End Landing -->

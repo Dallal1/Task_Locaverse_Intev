@@ -7,17 +7,17 @@
           <ul class="social">
             <li>
               <a href="#" class="facebook">
-                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-facebook-f"><font-awesome-icon :icon="['fab','facebook-f']"/></i>
               </a>
             </li>
             <li>
               <a href="#" class="twitter">
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-twitter"><font-awesome-icon :icon="['fab','twitter']"/></i>
               </a>
             </li>
             <li>
               <a href="#" class="youtube">
-                <i class="fab fa-youtube"></i>
+                <i class="fab fa-youtube"><font-awesome-icon :icon="['fab','youtube']"/></i>
               </a>
             </li>
           </ul>
@@ -36,15 +36,15 @@
         </div>
         <div class="box">
           <div class="line">
-            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <i class="fas fa-map-marker-alt fa-fw"><font-awesome-icon :icon="['fas','map-marker-alt']"/></i>
             <div class="info">THE ICON VIENNA Tower 24, 3rd Floor, BLRegister03, Wiedner Gürtel 13, 1100 Wien</div>
           </div>
           <div class="line">
-            <i class="far fa-clock fa-fw"></i>
+            <i class="far fa-clock fa-fw"><font-awesome-icon :icon="['far','clock']"/></i>
             <div class="info">Business Hours: From 7:00 To 20:00</div>
           </div>
           <div class="line">
-            <i class="fas fa-phone-volume fa-fw"></i>
+            <i class="fas fa-phone-volume fa-fw"><font-awesome-icon :icon="['fas','phone-volume']"/></i>
             <div class="info">
               <span>067761683900</span>
             </div>
@@ -59,7 +59,7 @@
           <img src="../imgs/gallery-06.png" alt="">
         </div>
       </div>
-      <p class="copyright">Made With &lt;3 By Elzero</p>
+      <p class="copyright">Made With &lt;3 By Dallal</p>
     </div>
     <!-- End Footer -->
 </template>

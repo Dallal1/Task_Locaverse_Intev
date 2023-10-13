@@ -6,7 +6,7 @@
             <a class="logo" href="#">Locaverse</a>
             <nav class="mein-nav">
                 <ul class="mai-ul">
-                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#articles">Services</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#">Other Links</a>

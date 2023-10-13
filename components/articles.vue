@@ -1,7 +1,7 @@
 <template>
     <!-- Start Articles -->
     <div class="articles" id="articles">
-      <h2 class="main-titl">Articles</h2>
+      <h2 class="main-titl">Services</h2>
       <div class="container">
         <div class="box">
           <img src="imgs/cat-01.jpg" alt="">
@@ -11,7 +11,9 @@
           </div>
           <div class="info">
             <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right"></i>
+            <i class="fas fa-long-arrow-alt-right">
+              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+            </i>
           </div>
         </div>
         <div class="box">
@@ -22,7 +24,9 @@
           </div>
           <div class="info">
             <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right"></i>
+            <i class="fas fa-long-arrow-alt-right">
+              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+            </i>
           </div>
         </div>
         <div class="box">
@@ -33,7 +37,9 @@
           </div>
           <div class="info">
             <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right"></i>
+            <i class="fas fa-long-arrow-alt-right">
+              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+            </i>
           </div>
         </div>
         <div class="box">
@@ -44,7 +50,9 @@
           </div>
           <div class="info">
             <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right"></i>
+            <i class="fas fa-long-arrow-alt-right">
+              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+            </i>
           </div>
         </div>
         <div class="box">
@@ -55,7 +63,9 @@
           </div>
           <div class="info">
             <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right"></i>
+            <i class="fas fa-long-arrow-alt-right">
+              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+            </i>
           </div>
         </div>
         <div class="box">
@@ -66,7 +76,9 @@
           </div>
           <div class="info">
             <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right"></i>
+            <i class="fas fa-long-arrow-alt-right">
+              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+            </i>
           </div>
         </div>
         <div class="box">
@@ -77,7 +89,9 @@
           </div>
           <div class="info">
             <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right"></i>
+            <i class="fas fa-long-arrow-alt-right">
+              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+            </i>
           </div>
         </div>
         <div class="box">
@@ -88,7 +102,9 @@
           </div>
           <div class="info">
             <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right"></i>
+            <i class="fas fa-long-arrow-alt-right">
+              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+            </i>
           </div>
         </div>
       </div>
