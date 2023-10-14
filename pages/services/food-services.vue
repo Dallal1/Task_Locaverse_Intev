@@ -1,14 +1,9 @@
-
 <template>
-  <div>
-    <headerAndLog />
-    <landing />
-    <services />
-    <gallery />
-    <features />
-    <testimonials />
-    <footerLest />
-  </div>
+    <div>
+        <headerAndLog />
+        <h1>halloo</h1>
+        <footerLest />
+    </div>
 </template>
 
 <style>

@@ -3,8 +3,8 @@
      <div class="landing">
       <div class="container">
         <div class="text">
-          <h2>Welcome, To Locaverse World</h2>
-          <p>We offer eight core services. Here, all of Locaverse's services are at your disposal</p>
+          <h2>Welcome, To <span class="text-locavese">Locaverse</span> World</h2>
+          <p>We offer eight core services. Here, all of Locaverse's services are at your disposal.</p>
         </div>
         <div class="image">
           <img src="../static/landing-image.png" alt="">
@@ -59,6 +59,11 @@
   letter-spacing: -1px;
   font-size: 40px;
 }
+
+.landing .text-locavese {
+  color: var(--main-color);
+}
+
 @media (max-width: 767px) {
   .landing .text h2  {
     font-size: 30px;

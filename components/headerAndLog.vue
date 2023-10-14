@@ -68,6 +68,7 @@
     -webkit-box-shadow: 0 0 10px #ddd;
     -moz-box-shadow: 0 0 10px #ddd;
     box-shadow: 0 0 10px #ddd;
+    top: -7px;
 }
 
 .header-scrol .container {

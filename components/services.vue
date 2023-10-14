@@ -3,19 +3,21 @@
     <div class="articles" id="articles">
       <h2 class="main-titl">Services</h2>
       <div class="container">
-        <div class="box">
-          <img src="imgs/cat-01.jpg" alt="">
-          <div class="content">
-            <h3>Test Title</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        <a href="services/food-services">
+          <div class="box">
+            <img src="../imgs/Services-imag/foode1.jpg" alt="">
+            <div class="content">
+              <h3>Food Delivery</h3>
+              <p>Efficient delivery of delectable meals to your doorstep, guaranteed satisfaction.</p>
+            </div>
+            <div class="info">
+              <a href="services/food-services">Read More</a>
+              <i class="fas fa-long-arrow-alt-right">
+                <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+              </i>
+            </div>
           </div>
-          <div class="info">
-            <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right">
-              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
-            </i>
-          </div>
-        </div>
+        </a>
         <div class="box">
           <img src="imgs/cat-02.jpg" alt="">
           <div class="content">
@@ -112,6 +114,7 @@
     <!-- End Articles -->
 </template>
 
+
 <style>
     /* Start Articles */
 .articles {
@@ -150,7 +153,10 @@
 
 .articles .box .content h3 {
   margin: 0;
-  font-weight: 500;
+  color: #1c3540;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  word-break: break-word;
 }
 
 .articles .box .content p {
