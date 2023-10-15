@@ -3,7 +3,7 @@
     <!-- Start Header -->
     <header class="header-scrol">
         <div class="container">
-            <a class="logo" href="#">Locaverse</a>
+            <a class="logo" href="http://localhost:3000/">Locaverse</a>
             <nav class="mein-nav">
                 <ul class="mai-ul">
                     <li><a href="#articles">Services</a></li>

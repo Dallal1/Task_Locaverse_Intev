@@ -1,163 +1,198 @@
 <template>
     <div>
-        <headerAndLog />
-        <h1>halloo</h1>
-        <footerLest />
+        <div class = "main-wrapper">
+            <div class = "container">
+                <div class = "product-div">
+                    <div class = "product-div-left">
+                        <div class = "img-container">
+                            <img src = "../../imgs/Services-imag/food1.jpg" alt = "watch">
+                        </div>
+                        <div class = "hover-container">
+                            <div><img src = "../../imgs/Services-imag/food2.jpg"></div>
+                            <div><img src = "../../imgs/Services-imag/food3.jpg"></div>
+                            <div><img src = "../../imgs/Services-imag/food4.jpg"></div>
+                        </div>
+                    </div>
+                    <div class = "product-div-right">
+                        <span class = "product-name">Food Delivery</span>
+                        <span class = "business-name">Locaverse <img src="https://www.locaverse.at/icons/verified-icon.svg" alt=""></span>
+                        <div class = "product-rating">
+                            <span><i class = "fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i></span>
+                            <span><i class = "fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i></span>
+                            <span><i class = "fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i></span>
+                            <span><i class = "fas fa-star"><font-awesome-icon :icon="['fas','star']"/></i></span>
+                            <span><i class = "fas fa-star-half-alt"><font-awesome-icon :icon="['fas','star-half-alt']"/></i></span>
+                            <span>(350 ratings)</span>
+                        </div>
+                        <p class = "product-description">Savor the convenience of swift, reliable meal deliveries—each one a delicious experience. From our kitchen to your door, relish in the flavors and satisfaction we guarantee with every carefully prepared, mouthwatering dish.</p>
+                        <div class = "btn-groups">
+                            <button type = "button" class = "add-cart-btn"><i class = "fas fa-shopping-cart"></i>add to cart</button>
+                            <button type = "button" class = "buy-now-btn"><i class = "fas fa-wallet"></i>buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
 <style>
-/* Start Global Rules */
-:root {
-    --main-color: #2196f3;
-    --main-color-alt: #1787e0;
-    --main-padding: 100px;
-    --main-transition: 0.3s;
-    --section-background: #ececec;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Work Sans', sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
+*{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-.container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+html, body{
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Small */
-@media (min-width: 768px) {
-    .container {
-      width: 750px;
+.main-wrapper{
+    min-height: 100vh;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+.product-div{
+    margin: 1rem 0;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fff;
+    border-radius: 3px;
+    column-gap: 10px;
+}
+.product-div-left{
+    padding: 20px;
+}
+.product-div-right{
+    padding: 20px;
+}
+.img-container img{
+    max-width: 480px;
+    margin: 0 auto;
+}
+.hover-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+.hover-container div{
+    border: 2px solid #2196f3;
+    padding: 1rem;
+    border-radius: 3px;
+    margin: 0 4px 8px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active{
+    border-color: #2196f3!important;
+}
+.hover-container div:hover{
+    border-color: #2196f3;
+}
+.hover-container div img{
+    max-width: 100px;
+    cursor: pointer;
+}
+.product-div-right span{
+    display: block;
+}
+.product-name{
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+.business-name{
+    color: #2196f3;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+.product-rating{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+.product-rating span{
+    margin-right: 6px;
+}
+.product-rating i {
+    color: #FF9F00;
+}
+.product-description{
+    font-weight: 18px;
+    line-height: 1.6;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-top: 22px;
+}
+.btn-groups{
+    margin-top: 130px;
+}
+.btn-groups button{
+    display: inline-block;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-groups button .fas{
+    margin-right: 8px;
+}
+.add-cart-btn{
+    background-color: #FF9F00;
+    border: 2px solid #FF9F00;
+    margin-right: 8px;
+}
+.add-cart-btn:hover{
+    background-color: #fff;
+    color: #FF9F00;
+}
+.buy-now-btn{
+    background-color: #000;
+    border: 2px solid #000;
+}
+.buy-now-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+@media screen and (max-width: 992px){
+    .product-div{
+        grid-template-columns: 100%;
+    }
+    .product-div-right{
+        text-align: center;
+    }
+    .product-rating{
+        justify-content: center;
+    }
+    .product-description{
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
-  /* Medium */
-@media (min-width: 992px) {
-    .container {
-      width: 970px;
+
+@media screen and (max-width: 400px){
+    .btn-groups button{
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
-  /* Large */
-@media (min-width: 1200px) {
-    .container {
-      width: 1170px;
-    }
-}
-/* End Global Rules */
-/* Start Main Titke */
-.main-titl {
-  border: 2px solid black;
-  margin: 0 auto 80px;
-  width: fit-content;
-  padding: 15px 25px;
-  position: relative;
-  z-index: 10;
-}
-.main-titl:hover {
-  color: white;
-  border: 2px solid white;
-  transition-delay: 1s;
-}
-.main-titl::before,
-.main-titl::after{
-  content: "";
-  background-color: var(--main-color-alt);
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.main-titl::before{
-  left: -30px;
-}
-.main-titl::after{
-  right: -30px;
-}
-
-.main-titl:hover::before{
-  z-index: -1;
-  animation: left-down 1s linear forwards;
-}
-.main-titl:hover::after{
-  z-index: -1;
-  animation: right-down 1s linear forwards;
-}
-/* End Main Titke */
-/* Start Animation */
-@keyframes up-and-down {
-  0%,
-  100% {
-    top: 0;
-  }
-  50% {
-    top: 50px;
-  }
-}
-@keyframes go-down {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translate(0);
-  }
-  40%, 60% {
-    transform: translateY(20px);
-  }
-}
-@keyframes right-down {
-  50% {
-    right: 0;
-    width: 12px;
-    height: 12px;
-  }
-  100% {
-    right: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-  }
-}
-@keyframes left-down {
-  50% {
-    left: 0;
-    width: 12px;
-    height: 12px;
-  }
-  100% {
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-  }
-}
-
-@keyframes links-move {
-  100% {
-    transform: translateX(10px);
-  }
-}
-
-@keyframes flashing {
-  100% {
-    width: 200%;
-    height: 200%;
-    opacity: 1;
-  }
-}
-/* End Animation */
 </style>

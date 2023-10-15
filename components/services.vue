@@ -5,7 +5,7 @@
       <div class="container">
         <a href="services/food-services">
           <div class="box">
-            <img src="../imgs/Services-imag/foode1.jpg" alt="">
+            <img src="../imgs/Services-imag/food1.jpg" alt="">
             <div class="content">
               <h3>Food Delivery</h3>
               <p>Efficient delivery of delectable meals to your doorstep, guaranteed satisfaction.</p>
@@ -18,19 +18,21 @@
             </div>
           </div>
         </a>
-        <div class="box">
-          <img src="imgs/cat-02.jpg" alt="">
-          <div class="content">
-            <h3>Test Title</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        <a href="services/taxi-services">
+          <div class="box">
+            <img src="../imgs/Services-taxi/taxi1.jpg" alt="">
+            <div class="content">
+              <h3>Taxi Driver</h3>
+              <p>Taxi services prioritize safety, reliability, cleanliness, professionalism, and efficiency.</p>
+            </div>
+            <div class="info">
+              <a href="">Read More</a>
+              <i class="fas fa-long-arrow-alt-right">
+                <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+              </i>
+            </div>
           </div>
-          <div class="info">
-            <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right">
-              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
-            </i>
-          </div>
-        </div>
+        </a>
         <div class="box">
           <img src="imgs/cat-03.jpg" alt="">
           <div class="content">
