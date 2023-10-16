@@ -6,7 +6,7 @@
           <h3>Locaverse</h3>
           <ul class="social">
             <li>
-              <a href="#" class="facebook">
+              <a href="https://www.facebook.com/locaverse/" class="facebook">
                 <i class="fab fa-facebook-f"><font-awesome-icon :icon="['fab','facebook-f']"/></i>
               </a>
             </li>
@@ -16,7 +16,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="youtube">
+              <a href="https://www.youtube.com/@Locaverse" class="youtube">
                 <i class="fab fa-youtube"><font-awesome-icon :icon="['fab','youtube']"/></i>
               </a>
             </li>

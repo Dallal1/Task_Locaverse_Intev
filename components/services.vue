@@ -33,84 +33,96 @@
             </div>
           </div>
         </a>
-        <div class="box">
-          <img src="imgs/cat-03.jpg" alt="">
-          <div class="content">
-            <h3>Test Title</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        <a href="services/animals-services">
+          <div class="box">
+            <img src="../imgs/services-animals/animals1.jpg" alt="">
+            <div class="content">
+              <h3>Taking Care Of Animals</h3>
+              <p>Ensuring the well-being and welfare of animals through dedicated care and compassion.</p>
+            </div>
+            <div class="info">
+              <a href="">Read More</a>
+              <i class="fas fa-long-arrow-alt-right">
+                <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+              </i>
+            </div>
           </div>
-          <div class="info">
-            <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right">
-              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
-            </i>
+        </a>
+        <a href="services/fitness-services">
+          <div class="box">
+            <img src="../imgs/services-fitness/fitness1.jpg" alt="">
+            <div class="content">
+              <h3>Fitness Coach</h3>
+              <p>A fitness coach provides tailored workouts, guidance, motivation, and support.</p>
+            </div>
+            <div class="info">
+              <a href="">Read More</a>
+              <i class="fas fa-long-arrow-alt-right">
+                <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+              </i>
+            </div>
           </div>
-        </div>
-        <div class="box">
-          <img src="imgs/cat-04.jpg" alt="">
-          <div class="content">
-            <h3>Test Title</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        </a>
+        <a href="services/computer-services">
+          <div class="box">
+            <img src="../imgs/services-computer/computer1.jpg" alt="">
+            <div class="content">
+              <h3>Computer Repair</h3>
+              <p>Computer repair technician: Troubleshooting, fixing, upgrading, and optimizing computers.</p>
+            </div>
+            <div class="info">
+              <a href="">Read More</a>
+              <i class="fas fa-long-arrow-alt-right">
+                <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+              </i>
+            </div>
           </div>
-          <div class="info">
-            <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right">
-              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
-            </i>
+        </a>
+        <a href="services/car-services">
+          <div class="box">
+            <img src="../imgs/services-car/car1.jpg" alt="">
+            <div class="content">
+              <h3>Car Repair</h3>
+              <p>Auto repair service: Expertly diagnosing, fixing, and enhancing vehicle functionality.</p>
+            </div>
+            <div class="info">
+              <a href="">Read More</a>
+              <i class="fas fa-long-arrow-alt-right">
+                <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+              </i>
+            </div>
           </div>
-        </div>
-        <div class="box">
-          <img src="imgs/cat-05.jpg" alt="">
-          <div class="content">
-            <h3>Test Title</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+        </a>
+        <a href="services/house-services">
+          <div class="box">
+            <img src="../imgs/services-house/house1.jpg" alt="">
+            <div class="content">
+              <h3>House Cleaning</h3>
+              <p>House cleaning service: Thoroughly tidying, organizing, and sanitizing living spaces.</p>
+            </div>
+            <div class="info">
+              <a href="">Read More</a>
+              <i class="fas fa-long-arrow-alt-right">
+                <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+              </i>
+            </div>
           </div>
-          <div class="info">
-            <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right">
-              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
-            </i>
+        </a>
+        <a href="services/child-services">
+          <div class="box">
+            <img src="../imgs/services-child/child1.jpg" alt="">
+            <div class="content">
+              <h3>Child Care</h3>
+              <p>Child care service: Caring, nurturing, and supervising children's well-being and development.</p>
+            </div>
+            <div class="info">
+              <a href="">Read More</a>
+              <i class="fas fa-long-arrow-alt-right">
+                <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
+              </i>
+            </div>
           </div>
-        </div>
-        <div class="box">
-          <img src="imgs/cat-06.jpg" alt="">
-          <div class="content">
-            <h3>Test Title</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
-          </div>
-          <div class="info">
-            <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right">
-              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
-            </i>
-          </div>
-        </div>
-        <div class="box">
-          <img src="imgs/cat-07.jpg" alt="">
-          <div class="content">
-            <h3>Test Title</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
-          </div>
-          <div class="info">
-            <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right">
-              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
-            </i>
-          </div>
-        </div>
-        <div class="box">
-          <img src="imgs/cat-08.jpg" alt="">
-          <div class="content">
-            <h3>Test Title</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
-          </div>
-          <div class="info">
-            <a href="">Read More</a>
-            <i class="fas fa-long-arrow-alt-right">
-              <font-awesome-icon :icon="['fas','long-arrow-alt-right']"/>
-            </i>
-          </div>
-        </div>
+        </a>
       </div>
     </div>
     <!-- End Articles -->

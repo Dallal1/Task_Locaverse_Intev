@@ -13,40 +13,34 @@
                          <!-- Start Megamenu -->
                       <div class="mega-menu">
                         <div class="image">
-                          <img decoding="async" src="imgs/megamenu.png" alt="">
+                          <img decoding="async" src="../imgs/megamenu.png" alt="">
                         </div>
                         <ul class="links">
                           <li>
-                            <a href="#Testimonials"><i class="far fa-comments fa-fw"></i> Testimonials</a>
+                            <a href="services/food-services"><i class="far fa-user fa-fw"><font-awesome-icon :icon="['far','user']"/></i>Food Delivery</a>
                           </li>
                           <li>
-                            <a href="#team"><i class="far fa-user fa-fw"></i> Team Members</a>
+                            <a href="services/taxi-services"><i class="far fa-building fa-fw"><font-awesome-icon :icon="['far','building']"/></i>Taxi Driver</a>
                           </li>
                           <li>
-                            <a href="#services"><i class="far fa-building fa-fw"></i> Services</a>
+                            <a href="services/animals-services"><i class="far fa-check-circle fa-fw"><font-awesome-icon :icon="['far','check-circle']"/></i>Taking Care Of Animals</a>
                           </li>
                           <li>
-                            <a href="#our-skills"><i class="far fa-check-circle fa-fw"></i> Our Skills</a>
-                          </li>
-                          <li>
-                            <a href="#work-steps"><i class="far fa-clipboard fa-fw"></i> How It Works</a>
+                            <a href="services/fitness-services"><i class="far fa-clipboard fa-fw"><font-awesome-icon :icon="['far','clipboard']"/></i>Fitness Coach</a>
                           </li>
                         </ul>
                         <ul class="links">
                           <li>
-                            <a href="#events"><i class="far fa-calendar-alt fa-fw"></i> Events</a>
+                            <a href="services/computer-services"><i class="fas fa-server fa-fw"><font-awesome-icon :icon="['fas','server']"/></i>Computer Repair</a>
                           </li>
                           <li>
-                            <a href="#pricing"><i class="fas fa-server fa-fw"></i> Pricing Plans</a>
+                            <a href="services/car-services"><i class="far fa-play-circle fa-fw"><font-awesome-icon :icon="['far','play-circle']"/></i>Car Repair</a>
                           </li>
                           <li>
-                            <a href="#video"><i class="far fa-play-circle fa-fw"></i> Top Videos</a>
+                            <a href="services/house-services"><i class="far fa-chart-bar fa-fw"><font-awesome-icon :icon="['far','chart-bar']"/></i>House Cleaning</a>
                           </li>
                           <li>
-                            <a href="#stats"><i class="far fa-chart-bar fa-fw"></i> Stats</a>
-                          </li>
-                          <li>
-                            <a href="#discount"><i class="fas fa-percent fa-fw"></i> Request A Discount</a>
+                            <a href="services/child-services"><i class="fas fa-percent fa-fw"><font-awesome-icon :icon="['fas','percent']"/></i>Child Care</a>
                           </li>
                         </ul>
                       </div>
